@@ -4,7 +4,7 @@
 
 ## A memorable tagline.
 
-A brief, plain-text description of your game. Give players a quick sense of what to expect in a few short sentences. It appears under your game's title on the store page.
+A brief, plain-text pitch for your game, in a sentence or two. It's shown when your game is featured, and in About when there's no description below.
 
 ---
 

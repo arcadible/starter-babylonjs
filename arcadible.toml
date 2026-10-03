@@ -3,11 +3,11 @@ audience = "everyone"
 ai = "unused"
 orientation = "natural"
 inputs = [
-  "keyboard-mouse",
+  "keyboard",
+  "mouse",
   "touch"
 ]
 visibility = "unlisted"
 
 [workflow]
-build = "npm run build"
 deploy_dir = ".arcadible-public"
