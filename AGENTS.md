@@ -36,7 +36,7 @@ arc pack                      # the zip arc deploy uploads, to check what it con
 arc deploy                    # validate, build, publish, and wait until it's published
 ```
 
-Add `--json` to an `arc` command to read its result: stdout holds one JSON document. Every `arc` command exits with 1 when it fails, and its JSON has `error.code`, such as `not_logged_in`: act on the code, and look it up at https://developer.arcadible.com/references/errors.md.
+Add `--json` to an `arc` command (every one but `login`, `logout`, `open`, and `play`) to read its result: stdout holds one JSON document. Every `arc` command exits with 1 when it fails, and its JSON has `error.code`, such as `not_logged_in`: act on the code, and look it up at https://developer.arcadible.com/references/errors.md.
 
 ## The runtime
 
