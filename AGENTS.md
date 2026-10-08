@@ -57,7 +57,7 @@ Add `--json` to an `arc` command (every one but `login`, `logout`, `open`, and `
 - Write the title, tagline, and bio as plain text.
 - Use only the description's allowed elements: no code, tables, raw HTML, or `#` and `##` headings.
 - Match art ratios exactly. A banner is 2:1, so 1030×512 is rejected.
-- Keep what matters in art inside its safe zones: 10% of the shorter side in from every edge, and on a wide cover, banner, or splash, the centered 3:4 area. The placeholders mark both; see https://developer.arcadible.com/publish/store-page.md, "Safe zones".
+- Keep what matters in art inside its edge margin: 10% of the shorter side in from every edge. The placeholders mark it; see https://developer.arcadible.com/publish/store-page.md, "Edge margin".
 
 ## Deploying
 
